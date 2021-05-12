@@ -1,8 +1,8 @@
 ﻿using System;
 // Cole Dickson
 // IT112
-// NOTES: notes the instructor should read
-// BEHAVIORS NOT IMPLIMENTED AND WHY: 
+// NOTES: I'm not entirely sure if I handled the 3 args in Phone's constructor or it's subclasses' constructors correctly, but everything works.
+// BEHAVIORS NOT IMPLIMENTED AND WHY: I don't believe I'm missing anything.
 namespace Dickson_Dialer
 {
     class Program
@@ -44,24 +44,6 @@ namespace Dickson_Dialer
             {
                 Console.WriteLine(dialList[i].Dial());
             }
-
-            /*dialList[0] = new Phone("CompuTest,(303) 985-5060,1");
-            dialList[1] = new Phone("Curtis Manufacturing,(603) 532-4123,2");
-            dialList[2] = new Phone("Data Functions,(800) 876-2524,1");
-            dialList[3] = new Phone("Donnay Repair,(708) 397-3330,1");
-            dialList[4] = new Phone("ErgoNomic Inc,(360) 434-3894,1");
-            dialList[5] = new Phone("ErgoSource,(800) 969-4374,1");
-            dialList[6] = new Phone("Fox Bay Industries,(800) 874-8527,2");
-            dialList[7] = new Phone("Glare-Guard,(800) 545-6254,2");
-            dialList[8] = new Phone("Hazard Comm Specialists,(407) 783-6641,2");
-            dialList[9] = new Phone("Komfort Support,(714) 472-4409,2");
-            Console.WriteLine(dialList[0].Dial());*/
-
-
-
-            /*string boi = "CompuTest,(303) 985-5060,1";
-            CellPhone thing = new CellPhone(boi);
-            Console.WriteLine(thing.Dial());*/
         }
     }
 }
